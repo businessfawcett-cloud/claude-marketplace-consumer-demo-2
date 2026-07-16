@@ -1,0 +1,15 @@
+{
+  "extraKnownMarketplaces": {
+    "claude-skill-marketplace-demo-2": {
+      "source": {
+        "source": "github",
+        "repo": "businessfawcett-cloud/claude-skill-marketplace-demo-2"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "skill-alpha@claude-skill-marketplace-demo-2": true,
+    "skill-bravo@claude-skill-marketplace-demo-2": true,
+    "skill-charlie@claude-skill-marketplace-demo-2": true
+  }
+}
