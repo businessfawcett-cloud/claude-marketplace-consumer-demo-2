@@ -19,7 +19,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "claude plugin marketplace update || true"
+            "command": "cd \"${CLAUDE_PROJECT_DIR}\" && claude plugin marketplace update || true"
           }
         ]
       }
