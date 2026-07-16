@@ -19,7 +19,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "cd \"${CLAUDE_PROJECT_DIR}\" && claude plugin marketplace update || true"
+            "command": "node \"${CLAUDE_PROJECT_DIR}/scripts/sync-plugins.js\" || true"
           }
         ]
       }
