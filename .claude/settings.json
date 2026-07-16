@@ -9,8 +9,7 @@
       "source": {
         "source": "github",
         "repo": "businessfawcett-cloud/claude-skill-marketplace-demo-2"
-      },
-      "autoUpdate": true
+      }
     }
   },
   "hooks": {
@@ -19,7 +18,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"${CLAUDE_PROJECT_DIR}/scripts/sync-plugins.js\" || true"
+            "command": "node \"${CLAUDE_PROJECT_DIR}/scripts/check-plugins.js\" || true"
           }
         ]
       }
