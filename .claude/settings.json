@@ -1,4 +1,7 @@
 {
+  "env": {
+    "CLAUDE_CODE_SYNC_PLUGIN_INSTALL": "1"
+  },
   "enabledPlugins": {
     "skill-alpha@claude-skill-marketplace-demo-2": true,
     "skill-bravo@claude-skill-marketplace-demo-2": true,
